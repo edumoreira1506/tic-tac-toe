@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Jogo da Velha</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="js/game.js"></script>
+</head>
+<body>	
+	<div class="container fade" id="jogo">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="tabuleiro">
+					<div class="jogo-da-velha largura-altura-completa">
+						<div class="primeira-linha">							
+							<div class="espaco" id="0">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+							<div class="espaco" id="1">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+							<div class="espaco" id="2">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+						</div>
+						<div class="segunda-linha">							
+							<div class="espaco" id="3">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+							<div class="espaco" id="4">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+							<div class="espaco" id="5">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+						</div>
+						<div class="terceira-linha">							
+							<div class="espaco" id="6">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+							<div class="espaco" id="7">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+							<div class="espaco" id="8">
+								<div class="simbolo largura-altura-completa">
+									<h2></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="botao-jogar-novamente">
+					<button class="fade" id="jogar-novamente">Jogar novamente</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
