@@ -12,7 +12,7 @@ $(document).ready(function(){
 })
 
 var JogoDaVelha = function(){
-	this.tabuleiro = [];
+	this.tabuleiro;
 	this.jogadores = [];
 	this.simbolos = ['X','O'];
 	this.jogadorDaVez;
@@ -152,7 +152,11 @@ var JogoDaVelha = function(){
 				this.jogoFinalizado = true;
 
 				var nomePerdedor = this.jogadorDaVez.getNome();
-				setTimeout(function(){swal('Derrota!',`${nomePerdedor}, infelizmente você perdeu.`,'error')}, 2000);
+
+				setTimeout(function(){
+					swal('Derrota!',`${nomePerdedor}, infelizmente você perdeu.`,'error')
+				}, 2000);
+				
 				$('#jogar-novamente').removeClass('fade');
 			}
 		}

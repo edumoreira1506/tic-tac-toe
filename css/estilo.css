@@ -75,6 +75,51 @@
       .tabuleiro .jogo-da-velha .primeira-linha, .tabuleiro .jogo-da-velha .terceira-linha{
         height: 33%;
       }
+#texto_0{
+  position: absolute;
+  top: -25px;
+  left: 17px;
+}
+#texto_1{
+  position: absolute;
+  top: -25px;
+  left: 37%;
+}
+#texto_2{
+  position: absolute;
+  top: -25px;
+  left: 71%;
+}
+#texto_3{
+  position: absolute;
+  top: 124px;
+  left: 17px;
+}
+#texto_4{
+  position: absolute;
+  top: 124px;
+  left: 37%;
+}
+#texto_5{
+  position: absolute;
+  top: 124px;
+  left: 71%;
+}
+#texto_6{
+  position: absolute;
+  top: 61%;
+  left: 17px;
+}
+#texto_7{
+  position: absolute;
+  top: 61%;
+  left: 37%;
+}
+#texto_8{
+  position: absolute;
+  top: 61%;
+  left: 71%;
+}
 
 
 
